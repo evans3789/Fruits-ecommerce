@@ -1,0 +1,81 @@
+.login-signup {
+  height: 80%;
+  border: 2px solid #50505069;
+  padding: 20px;
+  border-radius: 20px;
+}
+.login-signup h2 {
+  font-weight: 500;
+  color: #505050;
+  margin-bottom: 5px;
+}
+.login-signup form {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  height: 100%;
+}
+.login-signup form p {
+  color: #505050;
+  margin-bottom: 20px;
+}
+.login-signup form p span {
+  color: tomato;
+  cursor: pointer;
+}
+.login-signup form .signup,
+.login {
+  border: 2px solid #acacac;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-signup form .signup input,
+.login input {
+  width: 80%;
+  padding: 10px 30px;
+  margin: 20px 10px;
+  border: 1px solid;
+  border-radius: 12px;
+  outline-color: tomato;
+}
+.login-signup .names {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-signup .names img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.login-signup .email-pass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.login-signup .terms {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.login-signup button {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background: tomato;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

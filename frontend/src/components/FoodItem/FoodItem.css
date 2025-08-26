@@ -1,0 +1,78 @@
+.food-item {
+  border-radius: 20px;
+  background: white;
+}
+.food-item .image {
+  position: relative;
+}
+.food-item .image img {
+  width: 100%;
+  height: 25vh;
+  border-radius: 15px;
+}
+.food-item .image .overlay {
+  position: absolute;
+  bottom: 15px;
+  padding: 2px;
+  right: 10px;
+}
+.food-item .image .overlay .initial-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: tomato;
+  font-weight: 500;
+  font-size: 20px;
+  border: 3px solid tomato;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.food-item .image .overlay .add-minus-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-content: center;
+  background: rgba(0, 0, 0, 0.363);
+  padding: 3px;
+  border-radius: 10px;
+  color: tomato;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+.food-item .image .overlay .add-minus-items .minus,
+.add {
+  border: 2px solid red;
+  color: red;
+  font-weight: 600;
+  display: flex;
+  border-radius: 50%;
+}
+.food-item .image .overlay .add-minus-items .add {
+  border: 2px solid green;
+  color: green;
+}
+.food-item .content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 10px;
+}
+.food-item .content .name {
+  font-size: 18px;
+  font-weight: 500;
+}
+.food-item .content .desc {
+  font-size: 12px;
+  font-weight: 400;
+  color: #414141;
+}
+.food-item .content .price {
+  font-size: 18px;
+  font-weight: 500;
+  color: tomato;
+  margin-bottom: 3px;
+}

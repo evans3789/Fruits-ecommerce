@@ -1,0 +1,27 @@
+.fruit-display {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-content: center;
+}
+.fruit-display h2 {
+  color: #474747;
+}
+.fruit-display h2 input {
+  padding: 10px;
+  background: transparent;
+  font-size: inherit;
+  border: none;
+  font-weight: inherit;
+  color: inherit;
+}
+.fruit-display .product-items {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+}
